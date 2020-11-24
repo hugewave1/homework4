@@ -9,7 +9,7 @@ public class BaseUI {
 
     @BeforeMethod
     public void beforeMethod (){
-        System.setProperty("webdriver.chrome.driver", "/Users/family/Desktop/homework4/homework4/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get(mainUrl);

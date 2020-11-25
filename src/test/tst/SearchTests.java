@@ -1,3 +1,5 @@
+package tst;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

@@ -1,3 +1,5 @@
+package tst;
+
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
